@@ -38,6 +38,10 @@ public class Movie {
 	
 	public double getCalification(){
 		int prom = 0;
+
+		if(reviews == null || reviews.isEmpty()){
+			return prom;
+		}
 		for(Review r: reviews){
 			prom += r.getCalification();
 		}

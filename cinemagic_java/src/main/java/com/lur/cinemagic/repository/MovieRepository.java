@@ -16,6 +16,6 @@ import org.springframework.data.jpa.repository.Query;
 @Repository
 public interface MovieRepository extends JpaRepository<Movie, Long> {
 	@Query("SELECT m FROM Movie m WHERE m.title LIKE CONCAT('%', :keyword, '%')")
-	public List<Movie> findByKeyword(String keyword);
+	List<Movie> findByKeyword(String keyword);
 
 }

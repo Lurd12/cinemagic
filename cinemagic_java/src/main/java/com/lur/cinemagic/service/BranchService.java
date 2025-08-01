@@ -5,10 +5,13 @@
 package com.lur.cinemagic.service;
 
 import com.lur.cinemagic.dto.branch.BranchCreateDto;
+import com.lur.cinemagic.dto.branch.BranchDetailsDto;
 import com.lur.cinemagic.dto.branch.BranchUpdateDto;
 import com.lur.cinemagic.exception.BranchNotFoundException;
 import com.lur.cinemagic.model.Branch;
 import com.lur.cinemagic.repository.BranchRepository;
+
+import java.util.ArrayList;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -23,16 +26,22 @@ public class BranchService {
 
 	private BranchRepository repository;
 
-	public List<Branch> getAll() {
-		return repository.findAll();
+	public List<BranchDetailsDto> getAll() {
+		List<Branch> branches = repository.findAll();
+		List<BranchDetailsDto> branchDetailsDtos = new ArrayList<>();
+
+		for(Branch b: branches){
+			branchDetailsDtos.add(BranchDetailsDto.getBranchDetailsDtoFromBranch(b));
+		}
+		return branchDetailsDtos;
 	}
 
-	public Branch getById(Long id) {
-		return repository.findById(id)
-			.orElseThrow(() -> new BranchNotFoundException("Branch with id=" + id + " not found"));
+	public BranchDetailsDto getById(Long id) {
+		return BranchDetailsDto.getBranchDetailsDtoFromBranch(repository.findById(id)
+				.orElseThrow(() -> new BranchNotFoundException("Branch with id=" + id + " not found")));
 	}
 
-	public Branch update(BranchUpdateDto branchDto) {
+	public BranchDetailsDto update(BranchUpdateDto branchDto) {
 		Branch branch = repository.findById(branchDto.getId())
 			.orElseThrow(() -> new BranchNotFoundException("Branch with id=" + branchDto.getId() + " not found"));
 
@@ -41,7 +50,7 @@ public class BranchService {
 		branch.setExtNumber(branchDto.getExtNumber());
 		branch.setState(branchDto.getState());
 		branch.setTown(branchDto.getTown());
-		return repository.save(branch);
+		return BranchDetailsDto.getBranchDetailsDtoFromBranch(repository.save(branch));
 	}
 
 	public void delete(Long id) {
@@ -51,7 +60,7 @@ public class BranchService {
 		repository.deleteById(id);
 	}
 
-	public Branch insert(BranchCreateDto branchDto) {
+	public BranchDetailsDto insert(BranchCreateDto branchDto) {
 		Branch branch = new Branch();
 		branch.setCountry(branchDto.getCountry());
 		branch.setStreet(branchDto.getStreet());
@@ -59,7 +68,13 @@ public class BranchService {
 		branch.setState(branchDto.getState());
 		branch.setTown(branchDto.getTown());
 
-		return repository.save(branch);
+		return BranchDetailsDto.getBranchDetailsDtoFromBranch(repository.save(branch));
+	}
+
+	public Branch getBranchById(Long id){
+		return repository.findById(id)
+				.orElseThrow(() -> new BranchNotFoundException("Branch with id=" + id + " not found"));
+
 	}
 
 }

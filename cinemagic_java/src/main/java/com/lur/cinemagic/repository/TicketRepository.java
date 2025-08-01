@@ -4,6 +4,8 @@
  */
 package com.lur.cinemagic.repository;
 
+import com.lur.cinemagic.model.Showing;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 import com.lur.cinemagic.model.Ticket;
 import java.util.List;
@@ -19,12 +21,9 @@ import org.springframework.data.jpa.repository.Query;
 public interface TicketRepository extends JpaRepository<Ticket, Long> {
 
 	@Query(value = "SELECT * FROM ticket WHERE id_show=:idShow", nativeQuery = true)
-	public List<Ticket> findAllByIdShow(Long idShow);
+	List<Ticket> findAllByIdShow(Long idShow);
 
-	@Query(value = """
-		       SELECT CASE WHEN COUNT(*) > 0 THEN TRUE ELSE FALSE END
-		       FROM ticket
-		       WHERE id_show =:idShow AND seat_number =:seatNumber""", nativeQuery = true)
-	public boolean existsByIdShowAndSeatNumber(Long idShow, int seatNumber);
+
+	boolean existsByShowAndSeatNumber(Showing show, int seatNumber);
 
 }

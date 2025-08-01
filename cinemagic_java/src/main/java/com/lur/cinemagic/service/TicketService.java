@@ -84,7 +84,7 @@ public class TicketService {
 			throw new InvalidSeatChoiceException("The greater seat number choice for show with id=" + ticketCreateDto.getIdShow() + " is " + show.getTheater().getTotalSeats());
 		}
 
-		if (repository.existsByIdShowAndSeatNumber(ticketCreateDto.getIdShow(), ticketCreateDto.getSeatNumber())) {
+		if (repository.existsByShowAndSeatNumber(showingService.getShowingById(ticketCreateDto.getIdShow()), ticketCreateDto.getSeatNumber())) {
 			throw new InvalidSeatChoiceException("Seat " + ticketCreateDto.getSeatNumber() + " is not available");
 		}
 		

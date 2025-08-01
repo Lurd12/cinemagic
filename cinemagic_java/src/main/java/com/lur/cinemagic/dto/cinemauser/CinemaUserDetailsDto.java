@@ -7,6 +7,8 @@ import com.lur.cinemagic.model.CinemaUser;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Objects;
+
 /**
  *
  * @author lur
@@ -24,5 +26,17 @@ public class CinemaUserDetailsDto{
 		cinemaUserDetailsDto.setUsername(user.getUsername());
 		
 		return cinemaUserDetailsDto;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (o == null || getClass() != o.getClass()) return false;
+		CinemaUserDetailsDto that = (CinemaUserDetailsDto) o;
+		return Objects.equals(id, that.id) && Objects.equals(username, that.username);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id, username);
 	}
 }

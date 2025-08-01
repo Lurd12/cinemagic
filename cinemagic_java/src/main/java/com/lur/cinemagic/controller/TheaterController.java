@@ -5,12 +5,16 @@
 package com.lur.cinemagic.controller;
 
 import com.lur.cinemagic.dto.theater.TheaterCreateDto;
+import com.lur.cinemagic.dto.theater.TheaterDetailsDto;
 import com.lur.cinemagic.dto.theater.TheaterUpdateDto;
-import com.lur.cinemagic.model.Theater;
+import com.lur.cinemagic.exception.NotValidDataException;
 import com.lur.cinemagic.service.TheaterService;
 import java.util.List;
+
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -34,24 +38,31 @@ public class TheaterController {
   // ENDPOINTS ALLOWED FOR ANYONE
 
   @GetMapping
-  public ResponseEntity<List<Theater>> getAll() {
+  public ResponseEntity<List<TheaterDetailsDto>> getAll() {
     return ResponseEntity.ok(service.getAll());
   }
 
   @GetMapping("/{id}")
-  public ResponseEntity<Theater> getById(@PathVariable Long id) {
+  public ResponseEntity<TheaterDetailsDto> getById(@PathVariable Long id) {
     return ResponseEntity.ok(service.getById(id));
   }
 
   // ENDPOINTS ALLOWED FOR ADMINS
 
   @PostMapping
-  public ResponseEntity<Theater> insert(@RequestBody TheaterCreateDto theaterDto) {
+  public ResponseEntity<TheaterDetailsDto> insert(@Valid @RequestBody TheaterCreateDto theaterDto, BindingResult bindingResult) {
+    if (bindingResult.hasErrors()) {
+      throw new NotValidDataException("Validation error", bindingResult);
+    }
     return ResponseEntity.ok(service.insert(theaterDto));
   }
 
   @PutMapping
-  public ResponseEntity<Theater> update(@RequestBody TheaterUpdateDto theaterDto) {
+  public ResponseEntity<TheaterDetailsDto> update(@Valid @RequestBody TheaterUpdateDto theaterDto, BindingResult bindingResult) {
+    if (bindingResult.hasErrors()) {
+      throw new NotValidDataException("Validation error", bindingResult);
+
+    }
     return ResponseEntity.ok(service.update(theaterDto));
   }
 

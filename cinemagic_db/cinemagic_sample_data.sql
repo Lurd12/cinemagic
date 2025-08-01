@@ -1,48 +1,362 @@
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (4465, 'Tonga', 'Minnesota', 'Stephen Keys', 'Freemanburgh');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (687, 'Cuba', 'Arizona', 'Stephens Pines', 'Port Margaretfort');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (6721, 'Suriname', 'New York', 'Gibson Circles', 'East Jason');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (9676, 'Falkland Islands (Malvinas)', 'New Mexico', 'Garza Ridge', 'Port Erika');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (7741, 'Estonia', 'Pennsylvania', 'Brewer Views', 'Wilkersonshire');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (6162, 'Latvia', 'Maine', 'James Street', 'Alexanderfurt');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (80, 'Mayotte', 'Oklahoma', 'Julie Club', 'Lake Eric');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (3140, 'Singapore', 'Oklahoma', 'Hamilton Corner', 'Port Michelleshire');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (4452, 'Burkina Faso', 'Colorado', 'Liu Trace', 'Munozmouth');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (7167, 'Denmark', 'Alaska', 'Gonzales Pass', 'Whitakerport');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (1633, 'Bolivia', 'Nevada', 'Hayley Wells', 'West Melissashire');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (9309, 'Chad', 'Arizona', 'Carpenter Camp', 'Hendrixmouth');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (3931, 'Hong Kong', 'Tennessee', 'Kyle Stream', 'Raymondhaven');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (2365, 'Nigeria', 'Missouri', 'Nguyen Flat', 'West Daniel');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (9329, 'Italy', 'Missouri', 'Lopez Curve', 'Deniseburgh');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (7501, 'Panama', 'Tennessee', 'Goodwin Mission', 'Tammyhaven');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (7097, 'Bhutan', 'New York', 'Steven Garden', 'Audreyshire');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (2878, 'Macao', 'Florida', 'Wilson Estates', 'Port Jimmy');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (3158, 'Western Sahara', 'Alaska', 'William Springs', 'Kathyfurt');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8047, 'Hungary', 'Arkansas', 'White Bypass', 'Thomasland');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (6759, 'Sweden', 'Mississippi', 'Aaron Viaduct', 'Tammyview');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (4692, 'Sri Lanka', 'Wisconsin', 'Guerra Cove', 'Port Francis');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8074, 'Luxembourg', 'Arizona', 'Fuentes Knolls', 'Waltersstad');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (788, 'Albania', 'Pennsylvania', 'Edward Mall', 'Lake Jonathanton');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (7418, 'Brunei Darussalam', 'Maryland', 'Caroline Prairie', 'New Angelashire');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (6885, 'Marshall Islands', 'Nebraska', 'Victoria Keys', 'New Susanbury');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8607, 'Liberia', 'New Jersey', 'Mark Forest', 'East Pam');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (331, 'United States Minor Outlying Islands', 'Ohio', 'May Route', 'North Peterstad');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8137, 'Croatia', 'Idaho', 'Mark Lodge', 'Andersonfort');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (5673, 'Bosnia and Herzegovina', 'Minnesota', 'Brown Parkways', 'Gonzalezbury');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8536, 'Honduras', 'Vermont', 'Kim Views', 'Jonathanfurt');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (4001, 'Tokelau', 'Idaho', 'Karen Lakes', 'Makaylahaven');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8980, 'Grenada', 'Kentucky', 'Deleon Hollow', 'Port Nathanbury');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8795, 'Uzbekistan', 'California', 'Michelle Spurs', 'Port Adambury');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (5485, 'Swaziland', 'South Carolina', 'Coleman Corners', 'West Zacharyborough');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (4400, 'Greece', 'Texas', 'Amy Turnpike', 'Andersonburgh');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (9922, 'Djibouti', 'North Dakota', 'Moreno Mills', 'Castroville');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (7452, 'Benin', 'Georgia', 'Charles Pine', 'Susanberg');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (2414, 'Sudan', 'Virginia', 'Jack Trafficway', 'Bradleytown');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (3718, 'Lebanon', 'California', 'Robinson Parkway', 'Lindseyberg');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (7043, 'Barbados', 'North Dakota', 'Jones Row', 'Port Jason');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (565, 'Turkmenistan', 'Maine', 'Macias Streets', 'East Heatherland');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8788, 'Germany', 'New Hampshire', 'Oliver Shoal', 'East Christopher');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8251, 'Eritrea', 'Rhode Island', 'Kimberly Ports', 'Port Michaelatown');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (9981, 'Saint Lucia', 'New Jersey', 'Spencer Trail', 'Maryborough');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8562, 'Sierra Leone', 'West Virginia', 'Rivera Ford', 'Michaelton');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (8046, 'Norfolk Island', 'Utah', 'Holloway Corner', 'New Emily');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (7603, 'Turks and Caicos Islands', 'Hawaii', 'Christopher Springs', 'New Evelynhaven');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (226, 'Serbia', 'Maine', 'Jackson Underpass', 'West Amytown');
+INSERT INTO branch (ext_number, country, state, street, town) VALUES (9700, 'China', 'Nebraska', 'Rebecca Ranch', 'New Donaldfurt');
+INSERT INTO cinema_user (username, password, role) VALUES ('edward18', '(2Pf5C5c@j', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('tchen', 'U*E+SJIlq2', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('gene15', '8+PY@+!p)+', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('ffloyd', 'KQQpDxx9!4', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('longjudith', '^2qPUnnL$b', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('christopher74', 'KG5EPruvM$', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('philip62', '!l7I3Nwbvp', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('sarahsingleton', 'B7ATl!W!(e', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('whunter', '+3UN7GEk!8', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('williamgutierrez', 'GWqZ58GzB$', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('aparker', '!2VU8LFfnN', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('salasteresa', '_0SCK&MRqe', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('zgriffin', 'j%^Q3Y3sxL', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('michele33', '&UfxQEkSe2', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('david96', '+Y@4Vs+i3x', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('rbush', 'QP$0MiBPpl', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('laurahudson', '+jAoCnnF7X', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('kristine39', '9*LE)e14**', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('deannaallen', '_5eTtmdt_U', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('marie46', '+(BB_iXj1B', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('rwerner', 'U5+249Rldp', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('aliciapowell', 'fD)4BXEo5$', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('holly48', '!pSTrT0jK1', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('ricegina', 'jQhBkOSb^6', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('draketyler', '*6#JoO5$!6', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('khampton', 'j38KWsb_$8', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('ravenlucas', '5tFW5Bz4)1', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('smithcrystal', 'u3YAO4zd_y', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('patrick79', 'k6JFNMoo^U', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('ryanhenry', '$EDdC4Qma8', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('lford', 'oOSSEJew+2', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('ftaylor', '2m5+R0K%#r', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('tracey76', '(JUG)SAar3', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('ocollins', '03(frNrZ*B', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('josephtucker', 'O0T4VJ%h+E', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('sarahmedina', '+EZA@+gin9', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('michaelcarney', 'fW3MVSMb@o', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('kevinthomas', '+f2+Xj2mQF', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('qwatson', 'HkF3Gate4)', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('jacob61', 'zs+537Sb&D', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('pattersonwilliam', '*j4Yjazmpp', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('hodgedanielle', 'N*8D1$2uuY', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('ronald18', '1$8OpD&Vc$', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('fmiles', '46LNutWp*6', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('michelle70', 'y4FN#w83_o', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('mwilson', 'Un8*MMWHd*', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('susan13', 'zK0INPr)+q', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('yerickson', 'LlK2rCkf&^', 'USER');
+INSERT INTO cinema_user (username, password, role) VALUES ('vanessastark', '^&5Docu1*4', 'ADMIN');
+INSERT INTO cinema_user (username, password, role) VALUES ('thompsonjames', 'BkOf1VxZ(5', 'USER');
+INSERT INTO movie (title, synopsis, duration) VALUES ('Place who natural campaign.', 'Finish for owner manager oil figure standard certain. Small against purpose fine.', 113);
+INSERT INTO movie (title, synopsis, duration) VALUES ('During avoid light.', 'Blood join single amount company.', 157);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Such executive foreign.', 'Threat last artist feeling whether. Policy chair expert now call.', 157);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Already there tonight firm.', 'Road view government provide focus security charge stop. Improve everyone ball wife until.', 141);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Shoulder state.', 'Financial hundred language able. Room pay middle short leave he require.', 150);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Month this.', 'Why president heavy sense level low. Should have sure investment someone.', 126);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Whatever interesting.', 'Blue onto push wrong drive under glass. Already third pick law change.', 167);
+INSERT INTO movie (title, synopsis, duration) VALUES ('New even.', 'Phone blood picture value exist. Detail mother news out. Add capital word of.', 174);
+INSERT INTO movie (title, synopsis, duration) VALUES ('National seven second director.', 'Response Mr develop these. Draw stuff analysis knowledge. Rest social avoid.', 106);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Would.', 'Rest race nice stay above. Eye own day tough court continue we. Film live century.', 92);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Use ready.', 'Six experience pressure animal us business great. Environmental door state plan quite.', 172);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Thousand company call.', 'Onto cause raise effect side expect president east.', 159);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Very walk authority.', 'Kid dinner both goal. Interview talk interview by even east work.', 79);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Fact help finish.', 'Two turn range exist local. Experience our politics sure pressure skin federal.', 93);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Film.', 'Discuss baby western up foreign how discussion floor. Position pull my should. List want skin bag.', 152);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Amount business.', 'Guy light rich range. Candidate wrong interest.', 155);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Miss.', 'Trouble million win everybody onto five. Cause card indeed exactly tax trip idea.', 132);
+INSERT INTO movie (title, synopsis, duration) VALUES ('He oil.', 'Example itself rise art cultural.
+Training take hundred try.', 154);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Will.', 'Agree large woman pull music different.', 88);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Minute wife.', 'Foot appear save. Race one human never camera opportunity land less. Term into help party.', 143);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Clearly success why.', 'Give above main listen crime listen board. Exist financial great idea section.', 97);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Present seek.', 'Fact nor someone season coach.', 157);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Alone account evening.', 'Fire professional be mention. Treatment scientist probably hard majority member research lose.', 153);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Evidence the behavior.', 'Short music final character might. Development send green find.', 81);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Too control.', 'Five mouth local loss or character.', 161);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Sure claim.', 'Read drop I according. Care indicate worker a perform often.', 121);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Pretty nearly sport.', 'Summer change while matter like information assume eight.', 74);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Think evidence.', 'Among which interest. Security turn hour her short these should. Deal either statement.', 167);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Civil within.', 'Job fire sea support. National cost find position increase. Challenge morning professional out.', 179);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Responsibility you.', 'Cut former next Democrat. Bit win protect rather. Later example whose forward.', 121);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Reach word always.', 'System well almost bar control four contain. Production talk prepare.', 71);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Carry seek.', 'Half little surface yard. Admit within pull hold. There doctor degree run city simply.', 125);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Language thank.', 'Thing deal future space real eye especially few. Single product much. Drive one amount study allow.', 138);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Great side much.', 'Nearly speech within edge customer say. Finally Mrs watch she event.', 112);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Travel anything physical.', 'Discuss camera thousand. Evidence your these price school wear all.', 156);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Billion Mr bar.', 'Away already opportunity.
+News maybe traditional recent instead grow pretty.', 84);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Piece century.', 'Method address situation game. Meet education store water total behind able.', 130);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Among ready all city.', 'Put between note body despite project. Positive during crime fine.', 100);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Own those.', 'Seat meet race quickly.
+Home grow everyone head though real. Attack two since attorney form build.', 90);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Throw debate risk.', 'Send big maintain bed. Wind tonight method end church return sing.', 150);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Plan learn throughout.', 'Likely able cut. Contain tree never reduce fear.
+Several ever political size full son.', 169);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Dream region week.', 'Teacher action party tax. Compare decade very create drive candidate.', 123);
+INSERT INTO movie (title, synopsis, duration) VALUES ('And.', 'Available of cause message conference account. Exist far herself protect just.', 78);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Child heavy.', 'Treatment author its prevent ask act would. As late upon TV. Well big energy president company.', 177);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Member reflect piece.', 'Every health build vote nothing continue lawyer material.', 110);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Friend child.', 'Manager Mrs left oil employee. Five final my city somebody.
+Environment name fight improve.', 158);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Debate media.', 'Today whatever buy company own. End we add save. Personal new key third lose identify.', 161);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Experience authority although.', 'Sport Democrat face answer clear. Property term change fund.', 101);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Fast situation star.', 'Finally after race have pretty sing friend. Finish from strong run foreign say.', 138);
+INSERT INTO movie (title, synopsis, duration) VALUES ('Reality law.', 'Here conference decide scene but base. Hold heavy important.', 151);
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (5, '1988-03-29', 16, 22, 'Start Republican author Mrs huge challenge pretty work find wear particularly quality.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (7, '2009-01-17', 9, 1, 'Room view appear yes against break low Republican federal.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (7, '1983-11-21', 34, 30, 'Raise theory I include music standard not magazine represent foreign nice member effect.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (8, '1974-06-30', 4, 8, 'Movie information could off American risk resource.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (5, '1971-06-16', 1, 49, 'Guy and majority member collection capital leader society really mention out.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (9, '1982-08-03', 16, 35, 'Very explain might base child gun meet.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (6, '1982-01-29', 11, 5, 'Occur culture direction heavy game three which conference house.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (2, '1997-02-22', 43, 47, 'Morning sister hour discussion voice author game south line miss kid.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (5, '2024-08-16', 13, 34, 'Force since star building vote energy run front opportunity body.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (5, '1994-09-11', 47, 11, 'Test majority assume stuff cost performance bag Congress energy modern budget.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (1, '2017-12-02', 8, 50, 'Amount deep both effect quickly so myself.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (6, '1981-08-15', 6, 28, 'Financial leader speak account pass police arm evening.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (9, '2013-09-30', 44, 29, 'Policy rich guess hair all happen into born election city.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (4, '2015-01-01', 22, 1, 'Establish several will management media condition president chance rule increase.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (5, '1972-02-17', 43, 35, 'Their than company other economy drive itself scientist personal.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (7, '1987-05-29', 47, 5, 'Live identify public situation Congress true from his style common training gun ball.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (3, '1997-04-24', 22, 40, 'Sport his information enjoy investment choose Republican for.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (4, '2000-07-08', 12, 7, 'Alone interest a career cause walk name sometimes.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (4, '1986-09-24', 13, 22, 'Better candidate require child side none majority kitchen check mention.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (9, '1994-03-15', 43, 20, 'Blood since market reflect anything your age.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (5, '1970-11-08', 7, 29, 'Long expert tell human music option stay such off sell throw.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (9, '2016-04-24', 22, 47, 'View act community half say table floor director alone natural bag.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (10, '1980-03-01', 3, 21, 'Maybe every black beautiful stock Republican by.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (1, '1995-02-21', 19, 32, 'Build offer message model yes give control subject course ever rich.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (3, '1992-06-21', 49, 49, 'And military reality like range party.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (7, '2004-05-01', 16, 21, 'According opportunity appear why perhaps in recent fast experience describe radio church professional.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (5, '2023-05-18', 28, 49, 'Admit know and such day that walk may and off.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (5, '1970-12-23', 28, 14, 'Perform member pretty drug security factor hot author arm candidate.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (10, '2011-03-21', 12, 41, 'Use better finish theory hair bad off speech.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (2, '2023-08-20', 46, 35, 'Cell could cost range concern itself near claim live cup.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (9, '2000-08-07', 9, 21, 'Meeting girl moment raise piece rule college suffer degree trouble.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (2, '1993-10-07', 2, 33, 'Themselves strong crime threat culture owner brother minute.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (2, '2014-06-21', 25, 48, 'Get drug move why road cut prevent consider capital.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (3, '2014-02-11', 14, 17, 'Point officer ten half late hit.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (5, '2003-05-14', 1, 35, 'Ask include person letter available reason.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (9, '1991-05-15', 44, 2, 'Ago act sea school computer pay from.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (3, '1998-12-20', 11, 37, 'Nature decide return situation ever collection prevent grow environmental.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (8, '2013-10-11', 49, 19, 'Increase live resource fund laugh often.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (2, '2011-01-02', 5, 31, 'Color involve population within tax suddenly phone raise resource sound type sing attorney.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (3, '2006-08-20', 20, 33, 'Movie gun watch if quality year drive.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (6, '1971-06-28', 8, 7, 'Build represent decide school cause still industry possible center.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (1, '1972-01-22', 8, 23, 'Deal well take black rest method police yes.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (4, '1999-12-19', 8, 20, 'Student figure candidate buy democratic significant article past.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (9, '1974-10-13', 42, 49, 'Once manage go sea strategy represent under idea left.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (7, '1977-06-10', 8, 23, 'Serve now sort reduce provide seek say involve read resource.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (4, '2005-03-27', 22, 37, 'Ability no Congress almost year family security despite reach exist meeting field.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (6, '1991-01-06', 4, 36, 'Gun study quality reality message day.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (6, '1997-10-30', 16, 23, 'Share population bar decide foreign success.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (1, '1974-06-02', 37, 25, 'Matter business green soon skill understand firm nice financial election simple fight.');
+INSERT INTO review (calification, date, id_movie, id_user, content) VALUES (3, '1999-08-08', 12, 35, 'Best north interest head prepare situation buy several when understand now couple magazine.');
 
--- Insert data into `branch`
-INSERT INTO branch (inter_number, id_branch, country, direction, state, town) VALUES
-(101, 1, 'Mexico', 'Av. Reforma 123', 'CDMX', 'Mexico City'),
-(102, 2, 'Mexico', 'Calle Hidalgo 456', 'Jalisco', 'Guadalajara');
 
--- Insert data into `cinema_user`
-INSERT INTO cinema_user (id_viewer, password, role, username) VALUES
-(1, 'pass1', 'USER', 'john_doe'),
-(2, 'pass2', 'USER', 'jane_doe'),
-(3, 'adminpass', 'ADMIN', 'admin_user');
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (98.75, '2025-08-01 13:00:00.000000', 1, 1);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (120.00, '2025-08-01 15:30:00.000000', 2, 2);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (85.50, '2025-08-01 18:00:00.000000', 3, 3);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (110.25, '2025-08-01 20:45:00.000000', 4, 4);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (99.99, '2025-08-02 12:00:00.000000', 5, 5);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (105.00, '2025-08-02 14:15:00.000000', 6, 1);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (130.50, '2025-08-02 16:30:00.000000', 7, 2);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (80.00, '2025-08-02 19:00:00.000000', 8, 3);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (115.25, '2025-08-02 21:30:00.000000', 9, 4);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (125.75, '2025-08-03 13:00:00.000000', 10, 5);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (97.50, '2025-08-03 15:15:00.000000', 11, 1);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (112.00, '2025-08-03 17:45:00.000000', 12, 2);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (140.00, '2025-08-03 20:00:00.000000', 13, 3);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (90.50, '2025-08-04 12:30:00.000000', 14, 4);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (135.00, '2025-08-04 15:00:00.000000', 15, 5);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (108.25, '2025-08-04 17:30:00.000000', 16, 1);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (122.50, '2025-08-04 20:00:00.000000', 17, 2);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (89.99, '2025-08-05 13:15:00.000000', 18, 3);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (113.75, '2025-08-05 15:45:00.000000', 19, 4);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (104.00, '2025-08-05 18:30:00.000000', 20, 5);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (126.50, '2025-08-05 21:00:00.000000', 21, 1);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (102.25, '2025-08-06 12:45:00.000000', 22, 2);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (99.99, '2025-08-06 15:00:00.000000', 23, 3);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (119.00, '2025-08-06 17:30:00.000000', 24, 4);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (100.00, '2025-08-06 20:15:00.000000', 25, 5);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (137.50, '2025-08-07 13:30:00.000000', 26, 1);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (93.75, '2025-08-07 16:00:00.000000', 27, 2);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (109.00, '2025-08-07 18:30:00.000000', 28, 3);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (121.25, '2025-08-07 21:00:00.000000', 29, 4);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (132.50, '2025-08-08 12:00:00.000000', 30, 5);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (98.00, '2025-08-08 14:30:00.000000', 31, 1);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (117.50, '2025-08-08 17:00:00.000000', 32, 2);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (106.75, '2025-08-08 19:30:00.000000', 33, 3);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (134.00, '2025-08-08 22:00:00.000000', 34, 4);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (96.25, '2025-08-09 13:00:00.000000', 35, 5);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (103.50, '2025-08-09 15:30:00.000000', 36, 1);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (128.75, '2025-08-09 18:00:00.000000', 37, 2);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (111.00, '2025-08-09 20:30:00.000000', 38, 3);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (107.25, '2025-08-10 12:30:00.000000', 39, 4);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (139.50, '2025-08-10 15:00:00.000000', 40, 5);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (100.00, '2025-08-10 17:30:00.000000', 41, 1);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (95.75, '2025-08-10 20:00:00.000000', 42, 2);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (125.00, '2025-08-11 13:15:00.000000', 43, 3);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (118.00, '2025-08-11 15:45:00.000000', 44, 4);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (90.00, '2025-08-11 18:30:00.000000', 45, 5);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (101.25, '2025-08-11 21:00:00.000000', 46, 1);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (110.00, '2025-08-12 13:30:00.000000', 47, 2);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (123.75, '2025-08-12 16:00:00.000000', 48, 3);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (87.50, '2025-08-12 18:30:00.000000', 49, 4);
+INSERT INTO showing (price, date_time, id_movie, id_theater) VALUES (142.00, '2025-08-12 21:00:00.000000', 50, 5);
 
--- Insert data into `movie`
-INSERT INTO movie (id_movie, duration, synopsis, title) VALUES
-(1, 120, 'Sci-fi adventure in space', 'Galaxy Quest'),
-(2, 90, 'Romantic drama with twists', 'Love & Lies');
 
--- Insert data into `theater`
-INSERT INTO theater (id_theater, total_seats, id_branch) VALUES
-(1, 100, 1),
-(2, 150, 2);
 
--- Insert data into `showing`
-INSERT INTO showing (id_show, price, date_time, id_movie, id_theater) VALUES
-(1, 100.0, '2025-08-01 18:00:00', 1, 1),
-(2, 120.0, '2025-08-01 20:00:00', 2, 2);
+INSERT INTO theater (total_seats, id_branch, name) VALUES (120, 1, 'Alpha Theater');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (90, 2, 'Beta Hall');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (150, 3, 'CineMax 1');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (100, 4, 'DreamScreen');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (85, 5, 'Nova Room');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (200, 6, 'Cinepolis Hall A');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (110, 7, 'Luxe Cinema');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (95, 8, 'Galaxy Room');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (130, 9, 'VIP Cinema');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (105, 10, 'The Grand');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (125, 11, 'Sunset Hall');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (140, 12, 'CineStar 2');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (100, 13, 'Echo Room');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (160, 14, 'The Dome');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (90, 15, 'Aurora Cinema');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (115, 16, 'Luna Lounge');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (150, 17, 'Studio 7');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (135, 18, 'Skyline Theater');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (120, 19, 'Platinum Hall');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (100, 20, 'Velvet Room');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (85, 1, 'CineMax Mini');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (95, 2, 'Epic Screen');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (145, 3, 'Vista Hall');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (105, 4, 'Cinema 4D');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (135, 5, 'Digital Arena');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (115, 6, 'Nova Lounge');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (140, 7, 'Retro Cinema');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (130, 8, 'Neon Hall');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (100, 9, 'Pulse Screen');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (120, 10, 'CinemaPoint');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (150, 11, 'Royal Hall');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (125, 12, 'Vibe Theater');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (95, 13, 'The Reel Room');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (110, 14, 'Arcade Screen');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (90, 15, 'Indie Studio');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (105, 16, 'Vision Hall');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (100, 17, 'CineVerse');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (115, 18, 'Chroma Cinema');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (130, 19, 'Pixel Screen');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (140, 20, 'The Lighthouse');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (150, 1, 'CineGalaxy');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (110, 2, 'FilmHouse');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (125, 3, 'Oasis Theater');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (100, 4, 'Zeta Room');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (135, 5, 'Bravo Hall');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (95, 6, 'Eclipse Lounge');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (105, 7, 'Diamond Theater');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (145, 8, 'Prime Cinema');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (120, 9, 'Regal Room');
+INSERT INTO theater (total_seats, id_branch, name) VALUES (110, 10, 'Fusion Screen');
 
--- Insert data into `ticket`
-INSERT INTO ticket (id_ticket, seat_number, id_show, id_viewer) VALUES
-(1, 10, 1, 1),
-(2, 11, 1, 2),
-(3, 1, 2, 1);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (17, 51, 12);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (45, 52, 33);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (23, 53, 21);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (88, 54, 6);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (6, 55, 18);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (3, 56, 7);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (74, 57, 44);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (14, 58, 1);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (9, 59, 27);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (61, 60, 35);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (2, 61, 41);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (16, 62, 10);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (32, 63, 38);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (5, 64, 15);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (21, 65, 50);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (60, 66, 29);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (37, 67, 3);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (26, 68, 25);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (1, 69, 30);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (11, 70, 47);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (55, 71, 2);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (4, 72, 24);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (8, 73, 46);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (39, 74, 34);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (18, 75, 28);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (19, 76, 17);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (12, 77, 11);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (22, 78, 32);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (7, 79, 43);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (10, 80, 9);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (59, 81, 40);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (29, 82, 14);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (25, 83, 45);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (43, 84, 8);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (20, 85, 36);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (13, 86, 5);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (30, 87, 22);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (36, 88, 4);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (28, 89, 26);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (15, 90, 39);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (38, 91, 19);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (40, 92, 13);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (27, 93, 23);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (24, 94, 42);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (42, 95, 37);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (35, 96, 31);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (34, 97, 48);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (44, 98, 16);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (33, 99, 49);
+INSERT INTO ticket (seat_number, id_show, id_viewer) VALUES (31, 100, 20);
 
--- Insert data into `review`
-INSERT INTO review (id_review, calification, date, id_movie, id_user, content) VALUES
-(1, 5, '2025-07-25 14:00:00', 1, 1, 'Amazing movie!'),
-(2, 3, '2025-07-25 15:00:00', 2, 2, 'Could be better.');
-
--- Update AUTO_INCREMENT values
-ALTER TABLE branch AUTO_INCREMENT = 3;
-ALTER TABLE cinema_user AUTO_INCREMENT = 4;
-ALTER TABLE movie AUTO_INCREMENT = 3;
-ALTER TABLE theater AUTO_INCREMENT = 3;
-ALTER TABLE showing AUTO_INCREMENT = 3;
-ALTER TABLE ticket AUTO_INCREMENT = 4;
-ALTER TABLE review AUTO_INCREMENT = 3;
-
-INSERT INTO va

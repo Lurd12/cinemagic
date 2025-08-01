@@ -7,6 +7,7 @@
 package com.lur.cinemagic.controller;
 
 import com.lur.cinemagic.dto.branch.BranchCreateDto;
+import com.lur.cinemagic.dto.branch.BranchDetailsDto;
 import com.lur.cinemagic.dto.branch.BranchUpdateDto;
 import com.lur.cinemagic.exception.NotValidDataException;
 import com.lur.cinemagic.model.Branch;
@@ -38,18 +39,18 @@ public class BranchController {
 
 	// ENDPOINTS ALLOWED FOR EVERYONE
 	@GetMapping
-	public ResponseEntity<List<Branch>> getAll() {
+	public ResponseEntity<List<BranchDetailsDto>> getAll() {
 		return ResponseEntity.ok(service.getAll());
 	}
 
 	@GetMapping("/{id}")
-	public ResponseEntity<Branch> getById(@PathVariable Long id) {
+	public ResponseEntity<BranchDetailsDto> getById(@PathVariable Long id) {
 		return ResponseEntity.ok(service.getById(id));
 	}
 
 	// ENDPOINTS ONLY ALLOWED FOR ADMINS
 	@PostMapping
-	public ResponseEntity<Branch> insert(@Valid @RequestBody BranchCreateDto branch, BindingResult bindigResult) {
+	public ResponseEntity<BranchDetailsDto> insert(@Valid @RequestBody BranchCreateDto branch, BindingResult bindigResult) {
 		if (bindigResult.hasErrors()) {
 			throw new NotValidDataException("Validation error", bindigResult);
 			
@@ -58,7 +59,7 @@ public class BranchController {
 	}
 
 	@PutMapping
-	public ResponseEntity<Branch> update(@Valid @RequestBody BranchUpdateDto branch, BindingResult bindigResult) {
+	public ResponseEntity<BranchDetailsDto> update(@Valid @RequestBody BranchUpdateDto branch, BindingResult bindigResult) {
 		if (bindigResult.hasErrors()) {
 			throw new NotValidDataException("Validation error", bindigResult);
 			

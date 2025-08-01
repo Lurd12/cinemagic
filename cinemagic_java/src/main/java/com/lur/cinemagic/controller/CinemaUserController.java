@@ -35,7 +35,7 @@ public class CinemaUserController {
 
 	// ENDPOINTS ALLOWED FOR ANYONE
 	@PostMapping("/register")
-	public ResponseEntity<CinemaUser> register(@Valid @RequestBody CinemaUserCreateDto cinemaUserDto, BindingResult bindingResult) {
+	public ResponseEntity<CinemaUserDetailsDto> register(@Valid @RequestBody CinemaUserCreateDto cinemaUserDto, BindingResult bindingResult) {
 		if (bindingResult.hasErrors()) {
 			throw new NotValidDataException("Validation error", bindingResult);
 
@@ -45,7 +45,7 @@ public class CinemaUserController {
 
 	// ENDPOINS ONLY ALLOWED FOR ADMINS
 	@GetMapping
-	public ResponseEntity<List<CinemaUser>> getAll() {
+	public ResponseEntity<List<CinemaUserDetailsDto>> getAll() {
 		return ResponseEntity.ok(service.getAll());
 	}
 

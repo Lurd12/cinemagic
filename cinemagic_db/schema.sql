@@ -24,14 +24,14 @@ DROP TABLE IF EXISTS `branch`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8mb4 */;
 CREATE TABLE `branch` (
-  `inter_number` int(11) NOT NULL,
+  `ext_number` int(11) NOT NULL,
   `id_branch` bigint(20) NOT NULL AUTO_INCREMENT,
   `country` varchar(255) DEFAULT NULL,
-  `direction` varchar(255) DEFAULT NULL,
   `state` varchar(255) DEFAULT NULL,
+  `street` varchar(255) DEFAULT NULL,
   `town` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id_branch`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -47,7 +47,7 @@ CREATE TABLE `cinema_user` (
   `role` varchar(255) DEFAULT NULL,
   `username` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id_viewer`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -63,7 +63,7 @@ CREATE TABLE `movie` (
   `synopsis` varchar(255) DEFAULT NULL,
   `title` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id_movie`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -85,7 +85,7 @@ CREATE TABLE `review` (
   KEY `FK6dh1jigfpj1h1nfvuf2qh4u42` (`id_user`),
   CONSTRAINT `FK2yfxcptnm004rmqfks9f3teiq` FOREIGN KEY (`id_movie`) REFERENCES `movie` (`id_movie`),
   CONSTRAINT `FK6dh1jigfpj1h1nfvuf2qh4u42` FOREIGN KEY (`id_user`) REFERENCES `cinema_user` (`id_viewer`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -106,7 +106,7 @@ CREATE TABLE `showing` (
   KEY `FK4djlev7ibt2ns345s76o5qnws` (`id_theater`),
   CONSTRAINT `FK4djlev7ibt2ns345s76o5qnws` FOREIGN KEY (`id_theater`) REFERENCES `theater` (`id_theater`),
   CONSTRAINT `FK6nyqtek42b38f04gvdk2k88b3` FOREIGN KEY (`id_movie`) REFERENCES `movie` (`id_movie`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -124,7 +124,7 @@ CREATE TABLE `theater` (
   PRIMARY KEY (`id_theater`),
   KEY `FK7ow197gmflcsfjpjnbka6m7jd` (`id_branch`),
   CONSTRAINT `FK7ow197gmflcsfjpjnbka6m7jd` FOREIGN KEY (`id_branch`) REFERENCES `branch` (`id_branch`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -144,7 +144,7 @@ CREATE TABLE `ticket` (
   KEY `FK59hgglew0llc285x07keg3s6t` (`id_viewer`),
   CONSTRAINT `FK59hgglew0llc285x07keg3s6t` FOREIGN KEY (`id_viewer`) REFERENCES `cinema_user` (`id_viewer`),
   CONSTRAINT `FKfntttdmfclieuecyo35qtxs2` FOREIGN KEY (`id_show`) REFERENCES `showing` (`id_show`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -156,4 +156,4 @@ CREATE TABLE `ticket` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2025-07-27 16:36:57
+-- Dump completed on 2025-07-31 15:33:15

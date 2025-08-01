@@ -18,6 +18,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+import com.lur.cinemagic.repository.TicketRepository;
 import lombok.AllArgsConstructor;
 
 import org.springframework.stereotype.Service;
@@ -33,7 +34,7 @@ public class ShowingService {
 	private ShowingRepository repository;
 	private TheaterService theaterService;
 	private MovieService movieService;
-	private TicketService ticketService;
+	private TicketRepository ticketRepository  ;
 
 	public List<ShowingDetailsDto> getNextShows() {
 		List<Showing> shows = repository.findUpcommingShows();
@@ -79,7 +80,7 @@ public class ShowingService {
 			() -> new ShowingNotFoundException("Show with id=" + showingUpdateDto.getId() + " not found")
 		);
 		Movie movie = movieService.getMovieById(showingUpdateDto.getMovieId());
-		Theater theater = theaterService.getById(showingUpdateDto.getTheaterId());
+		Theater theater = theaterService.getTheaterById(showingUpdateDto.getTheaterId());
 		show.setDateTime(showingUpdateDto.getDateTime());
 		show.setMovie(movie);
 		show.setPrice(showingUpdateDto.getPrice());
@@ -90,7 +91,7 @@ public class ShowingService {
 	public ShowingDetailsDto insert(ShowingCreateDto showingCreateDto) {
 		Showing show = new Showing();
 		Movie movie = movieService.getMovieById(showingCreateDto.getMovieId());
-		Theater theater = theaterService.getById(showingCreateDto.getTheaterId());
+		Theater theater = theaterService.getTheaterById(showingCreateDto.getTheaterId());
 
 		show.setDateTime(showingCreateDto.getDateTime());
 		show.setMovie(movie);
@@ -114,7 +115,7 @@ public class ShowingService {
 		Showing show = this.getShowingById(idShow);
 
 		//Get every ticket
-		List<Ticket> tickets = ticketService.getAllTicketsByIdShow(idShow);
+		List<Ticket> tickets = ticketRepository.findAllByIdShow(idShow);
 
 
 		for(Ticket ticket: tickets){

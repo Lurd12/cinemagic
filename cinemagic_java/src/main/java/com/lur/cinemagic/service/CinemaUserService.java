@@ -11,8 +11,11 @@ import com.lur.cinemagic.exception.UserOperationNotAllowed;
 import com.lur.cinemagic.exception.UsernameAlreadyExistsException;
 import com.lur.cinemagic.model.CinemaUser;
 import com.lur.cinemagic.repository.CinemaUserRepository;
+
+import java.util.ArrayList;
 import java.util.List;
 import lombok.AllArgsConstructor;
+import lombok.Setter;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -25,12 +28,13 @@ import org.springframework.security.crypto.password.PasswordEncoder;
  */
 @Service
 @AllArgsConstructor
+@Setter
 public class CinemaUserService {
 
   private CinemaUserRepository repository;
   private PasswordEncoder passwordEncoder;
 
-  public CinemaUser register(CinemaUserCreateDto cinemaUserDto) {
+  public CinemaUserDetailsDto register(CinemaUserCreateDto cinemaUserDto) {
     if (repository.existsByUsername(cinemaUserDto.getUsername())) {
       throw new UsernameAlreadyExistsException("Username " + cinemaUserDto.getUsername() + " is already in use");
     }
@@ -39,11 +43,16 @@ public class CinemaUserService {
     cinemaUser.setUsername(cinemaUserDto.getUsername());
     cinemaUser.setPassword(passwordEncoder.encode(cinemaUserDto.getPassword()));
     cinemaUser.setRole("USER");
-    return repository.save(cinemaUser);
+    return CinemaUserDetailsDto.getCinemaUserDetailsDtoFromUser(repository.save(cinemaUser));
   }
 
-  public List<CinemaUser> getAll() {
-    return repository.findAll();
+  public List<CinemaUserDetailsDto> getAll() {
+    List<CinemaUser> users = repository.findAll();
+    List<CinemaUserDetailsDto> cinemaUserDetailsDtos = new ArrayList<>();
+    for (CinemaUser u: users)
+      cinemaUserDetailsDtos.add(CinemaUserDetailsDto.getCinemaUserDetailsDtoFromUser(u));
+    return cinemaUserDetailsDtos;
+
   }
 
   public CinemaUserDetailsDto getCurrentUserDto() {
